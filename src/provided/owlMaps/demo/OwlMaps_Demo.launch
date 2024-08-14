@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.ui.externaltools.ProgramLaunchConfigurationType">
+    <booleanAttribute key="org.eclipse.debug.core.ATTR_FORCE_SYSTEM_CONSOLE_ENCODING" value="false"/>
+    <stringAttribute key="org.eclipse.ui.externaltools.ATTR_LOCATION" value="${system_path:java}"/>
+    <stringAttribute key="org.eclipse.ui.externaltools.ATTR_TOOL_ARGUMENTS" value="-Djava.library.path=&quot;..\libs\owlMaps\javacef\lib\win64;..\libs\owlMaps\javacef\lib\win64&quot;&#13;&#10;-Dfile.encoding=windows-1252&#13;&#10;-p &quot;.\;..\libs\owlMaps\javacef\gluegen-rt.jar;..\libs\owlMaps\javacef\gluegen-rt-natives-windows-amd64.jar;..\libs\owlMaps\javacef\gluegen-rt-natives-linux-amd64.jar;..\libs\owlMaps\javacef\gluegen-rt-natives-macosx-universal.jar;..\libs\owlMaps\javacef\jcef.jar;..\libs\owlMaps\javacef\jogl-all.jar;..\libs\owlMaps\javacef\jogl-all-natives-linux-amd64.jar;..\libs\owlMaps\javacef\jogl-all-natives-macosx-universal.jar;..\libs\owlMaps\javacef\jogl-all-natives-windows-amd64.jar;..\libs\owlMaps\gson\gson.jar;..\libs\owlMaps\jaxb\jakarta.activation-api.jar;..\libs\owlMaps\jaxb\jakarta.xml.bind-api.jar&quot;&#13;&#10;&#13;&#10;-XX:+ShowCodeDetailsInExceptionMessages&#13;&#10;-m  ${module_name}/provided.owlMaps.demo.controller.DemoApp"/>
+    <stringAttribute key="org.eclipse.ui.externaltools.ATTR_WORKING_DIRECTORY" value="${project_loc}/bin"/>
+</launchConfiguration>
