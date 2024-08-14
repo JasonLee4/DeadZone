@@ -1,2 +1,3 @@
-**Dead Zone**\n
+**Dead Zone**
+  
 Country Picking Elimination Game
